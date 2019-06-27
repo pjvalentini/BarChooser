@@ -1,0 +1,31 @@
+// Widget
+.widget {
+    background: $light-blue;
+    margin-bottom: $xl-size;
+}
+
+// create message - on ptag
+// styles - color off wh, no magin, lsize padding center the text text-align
+// border bottom  1px solid $ light light blue 10%.
+.message {
+    color: $off-white;
+    margin: 0;
+    padding: $l-size;
+    text-align: center;
+    border-bottom: .3rem solid lighten($light-blue, 10%);
+}
+
+// widget header
+.widget-header {
+    background: $blue;
+    color: $off-white;
+    display: flex;
+    // distributes space between elements
+    justify-content: space-between;
+    padding:$m-size;
+}
+
+//sets the margin of the h3 to 0 for a margin reset.
+.widget-header__title {
+    margin: 0;
+}
